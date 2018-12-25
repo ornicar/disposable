@@ -304,7 +304,6 @@ target/
 hs_err_pid*
 
 domains.json
-domains.txt
 domains_sha1.json
 domains_sha1.txt
 domains_source_map.txt
