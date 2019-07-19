@@ -1465,6 +1465,7 @@
 8mail.cf
 8mail.ga
 8mail.ml
+8mailpro.com
 8mot.ru
 8oboi80bcv1.cf
 8oboi80bcv1.ga
@@ -2003,7 +2004,6 @@ ahrr59qtdff98asg5k.gq
 ahrr59qtdff98asg5k.ml
 ahrr59qtdff98asg5k.tk
 ahyars.site
-ai.aax.cloudns.asia
 ai.edu.aiot.ze.cx
 ai.hsfz.info
 ai.vcss.eu.org
@@ -2340,6 +2340,7 @@ anonymousspeech.com
 anonymstermail.com
 anotherdomaincyka.tk
 anpravoslavnoe.ru
+anprostore.com
 ansaldo.cf
 ansaldo.ga
 ansaldo.gq
@@ -2778,7 +2779,6 @@ azmeil.tk
 azote.cf
 azote.ga
 azote.gq
-azure.cloudns.asia
 azxhzkohzjwvt6lcx.cf
 azxhzkohzjwvt6lcx.ga
 azxhzkohzjwvt6lcx.gq
@@ -4187,7 +4187,9 @@ coffeelovers.life
 coffeepancakewafflebacon.com
 cognitiveways.xyz
 coieo.com
+coin-hub.net
 coin-link.com
+coin-mail.com
 coinbroker.club
 coincal.org
 coinlink.club
@@ -5509,6 +5511,7 @@ easybedb.site
 easyemail.info
 easymail.ga
 easymail.top
+easymealideas.win
 easynetwork.info
 easytrashmail.com
 eatlogs.com
@@ -6551,6 +6554,7 @@ firstcapitalfibers.com
 fish.skytale.net
 fishfortomorrow.xyz
 fistclick-company.ru
+fitimail.eu
 fitnesrezink.ru
 fitofive.ru
 fivemail.de
@@ -7177,6 +7181,7 @@ get.pp.ua
 get1mail.com
 get2mail.fr
 get365.pw
+get365.tk
 getairmail.cf
 getairmail.com
 getairmail.ga
@@ -7245,6 +7250,10 @@ ghosttexter.de
 ghtreihfgh.xyz
 giacmosuaviet.info
 giaiphapmuasam.com
+giallo.cf
+giallo.gq
+giallo.ml
+giallo.tk
 gianna1121.club
 giantmail.de
 giaoisgla35ta.cf
@@ -7624,6 +7633,7 @@ gt446443ads.ml
 gt446443ads.tk
 gta-offline.ru
 gta4etw4twtan53.gq
+gtmail.com
 gtrcinmdgzhzei.cf
 gtrcinmdgzhzei.ga
 gtrcinmdgzhzei.gq
@@ -8240,6 +8250,7 @@ hotmailpro.info
 hotmailproduct.com
 hotmails.com
 hotmanpariz.com
+hotmcail.com
 hotmessage.info
 hotmial.com
 hotmil.com
@@ -9680,6 +9691,12 @@ kad01.cf
 kad01.ga
 kad01.gq
 kad01.ml
+kad02.cf
+kad02.ga
+kad02.ml
+kad03.cf
+kad03.ml
+kad04.cf
 kadag.ir
 kademen.com
 kadokawa.cf
@@ -9710,6 +9727,7 @@ kamenrider.ru
 kamin-hous.ru
 kampoeng3d.club
 kamsg.com
+kamu-sudahh.top
 kamx0-nacal.ru
 kanciang.faith
 kandymail.com
@@ -9906,6 +9924,7 @@ kikoxltd.com
 kill-me.tk
 killmail.com
 killmail.net
+kilton2001.ml
 kim-rikil.ru
 kimsdisk.com
 king-yaseen.cf
@@ -10623,7 +10642,6 @@ lindenbaumjapan.com
 linea-stile.ru
 linguistic.ml
 lininas-auvim.ru
-link.cloudns.asia
 link2mail.net
 linkedintuts2016.pw
 linkredirekt.ru
@@ -11081,6 +11099,7 @@ mahiidev.site
 maidlow.info
 mail-2-you.com
 mail-address.live
+mail-app.net
 mail-apps.com
 mail-apps.net
 mail-c.cf
@@ -11109,6 +11128,7 @@ mail-point.net
 mail-pro.info
 mail-register.com
 mail-share.com
+mail-share.net
 mail-space.net
 mail-temp.com
 mail-temporaire.com
@@ -11192,6 +11212,7 @@ mail1999.ml
 mail1999.tk
 mail1a.de
 mail2.cf
+mail2.dns-cloud.net
 mail2.drama.tw
 mail2.info.tm
 mail2.ntuz.me
@@ -11373,6 +11394,7 @@ mailjuose.ga
 mailkor.xyz
 mailkuatjku2.ga
 mailkutusu.site
+maillink.in
 maillink.info
 maillink.live
 maillink.top
@@ -11409,6 +11431,8 @@ mailpick.biz
 mailpm.live
 mailpooch.com
 mailpost.comx.cf
+mailpost.dns-cloud.net
+mailpost.ga
 mailpost.gq
 mailpremium.net
 mailprohub.com
@@ -12704,6 +12728,7 @@ net-list.com
 net-privichkam.ru
 net-solution.info
 net.ua
+net8mail.com
 netcom.ws
 nethotmail.com
 netmail-pro.com
@@ -13282,6 +13307,7 @@ oduyzrp.com
 oe1f42q.com
 oemzpa.cf
 oepia.com
+oeppeo.com
 oerpub.org
 oeu4sdyoe7llqew0bnr.cf
 oeu4sdyoe7llqew0bnr.ga
@@ -13374,6 +13400,7 @@ okndrt2ebpshx5tw.ml
 okndrt2ebpshx5tw.tk
 okrent.us
 okzk.com
+old-recipes.com
 oldmine.ru
 oleginshop.ru
 olga9.ru
@@ -13685,6 +13712,7 @@ p9fnveiol8f5r.gq
 p9fnveiol8f5r.ml
 p9fnveiol8f5r.tk
 pa9e.com
+pabuksat.ml
 pachilly.com
 padanghijau.online
 paddlepanel.com
@@ -13777,6 +13805,7 @@ patronage-365.ru
 patronage-msk.ru
 patronmail.club
 patronmail.icu
+patronmail.online
 patronmail.press
 patronmail.site
 patronmail.space
@@ -13919,6 +13948,7 @@ pesowuwzdyapml.ga
 pesowuwzdyapml.gq
 pesowuwzdyapml.ml
 pesowuwzdyapml.tk
+pestycraft.tk
 petberries.ru
 peterdethier.com
 petertijj.com
@@ -14273,7 +14303,6 @@ privyonline.com
 privyonline.net
 prmail.top
 pro-tag.org
-pro.cloudns.asia
 prob.icu
 proc.icu
 procrackers.com
@@ -14418,6 +14447,7 @@ putfs6fbkicck.ga
 putfs6fbkicck.gq
 putfs6fbkicck.ml
 putfs6fbkicck.tk
+putsbox.com
 puttana.cf
 puttana.ga
 puttana.gq
@@ -14984,6 +15014,7 @@ rdahb3lrpjquq.gq
 rdahb3lrpjquq.ml
 rdahb3lrpjquq.tk
 rdklcrv.xyz
+rdresolucoes.com
 rdyn171d60tswq0hs8.cf
 rdyn171d60tswq0hs8.ga
 rdyn171d60tswq0hs8.gq
@@ -16644,6 +16675,7 @@ statsbet.ru
 stattech.info
 statuspage.ga
 statx.ga
+staytoppop.com
 stealbets.ru
 stealthypost.net
 stealthypost.org
@@ -16952,6 +16984,7 @@ t1bkooepcd.gq
 t1bkooepcd.ml
 t1bkooepcd.tk
 t24e4p7.com
+t3echmoflhipro.ga
 t3mtxgg11nt.cf
 t3mtxgg11nt.ga
 t3mtxgg11nt.gq
@@ -17176,6 +17209,7 @@ telukmeong2.cf
 telukmeong3.ml
 teman-bangsa.com
 temengaming.com
+temp-cloud.net
 temp-emails.com
 temp-mail.com
 temp-mail.de
@@ -17189,7 +17223,6 @@ temp-mail.ru
 temp-mails.com
 temp.aogoen.com
 temp.bartdevos.be
-temp.cloudns.asia
 temp.emeraldwebmail.com
 temp.headstrong.de
 temp.mail.y59.jp
@@ -17199,6 +17232,7 @@ temp15qm.com
 temp2.club
 tempail.com
 tempalias.com
+tempcloud.in
 tempcloud.info
 tempe-mail.com
 tempekmuta.cf
@@ -17324,7 +17358,6 @@ tf5bh7wqi0zcus.gq
 tf5bh7wqi0zcus.ml
 tf5bh7wqi0zcus.tk
 tf7nzhw.com
-tfstaiwan.cloudns.asia
 tfwno.gf
 tfzav6iptxcbqviv.cf
 tfzav6iptxcbqviv.ga
@@ -17411,6 +17444,7 @@ thespawningpool.com
 thestats.top
 theta-time.ru
 theteastory.info
+thetempmail.com
 thetrash.email
 thetrommler.com
 thex.ro
@@ -18245,6 +18279,7 @@ umail.net
 umail2.com
 umessage.cf
 umka-mgn.ru
+umode.net
 umrn.ga
 umrn.gq
 umrn.ml
@@ -18263,7 +18298,6 @@ unif8nthemsmnp.ml
 unif8nthemsmnp.tk
 unimark.org
 unit7lahaina.com
-unite.cloudns.asia
 unixproject.ru
 unlimit.com
 unmail.ru
@@ -19053,7 +19087,6 @@ w9y9640c.com
 wa010.com
 wadawdawd.ru
 wagfused.com
-wailo.cloudns.asia
 waitingjwo.com
 wajikethanh96ger.gq
 wakingupesther.com
@@ -20399,6 +20432,7 @@ zesta.cf
 zesta.gq
 zeta-telecom.com
 zetmail.com
+zeusrisky07.ml
 zeusrisky07.tk
 zeveyuse.com
 zeveyuse.net
