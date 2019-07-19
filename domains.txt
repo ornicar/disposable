@@ -9692,7 +9692,6 @@ kad01.ga
 kad01.gq
 kad01.ml
 kad02.cf
-kad02.ga
 kad02.ml
 kad03.cf
 kad03.ml
