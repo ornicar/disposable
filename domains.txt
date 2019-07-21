@@ -1465,7 +1465,6 @@
 8mail.cf
 8mail.ga
 8mail.ml
-8mailpro.com
 8mot.ru
 8oboi80bcv1.cf
 8oboi80bcv1.ga
@@ -4188,7 +4187,6 @@ coffeelovers.life
 coffeepancakewafflebacon.com
 cognitiveways.xyz
 coieo.com
-coin-hub.net
 coin-link.com
 coin-mail.com
 coinbroker.club
@@ -5499,6 +5497,7 @@ eaqso209ak.ga
 eaqso209ak.gq
 eaqso209ak.ml
 earn-now.ru
+earningsph.com
 earnlink.ooo
 earth.doesntexist.org
 earthworksyar.cf
@@ -5513,6 +5512,7 @@ easybedb.site
 easyemail.info
 easymail.ga
 easymail.top
+easymealideas.win
 easynetwork.info
 easytrashmail.com
 eatlogs.com
@@ -9693,10 +9693,12 @@ kad01.ga
 kad01.gq
 kad01.ml
 kad02.cf
+kad02.gq
 kad02.ml
 kad03.cf
+kad03.ga
 kad03.ml
-kad04.cf
+kad04.ga
 kadag.ir
 kademen.com
 kadokawa.cf
@@ -9824,6 +9826,7 @@ kenecrehand.port25.biz
 kennedy808.com
 kenzo-official.ru
 keraorganica.ru
+kersp.lat
 kerupukmlempem.ml
 kerupukmlempem.tk
 kerupukmlempem1.cf
@@ -10819,6 +10822,7 @@ londondesign.ru
 longio.org
 lonthe.ml
 lookugly.com
+lootlotricks.site
 lopeure.com
 lopl.co.cc
 lordsofts.com
@@ -11099,7 +11103,6 @@ mahiidev.site
 maidlow.info
 mail-2-you.com
 mail-address.live
-mail-app.net
 mail-apps.com
 mail-apps.net
 mail-c.cf
@@ -11394,7 +11397,6 @@ mailjuose.ga
 mailkor.xyz
 mailkuatjku2.ga
 mailkutusu.site
-maillink.in
 maillink.info
 maillink.live
 maillink.top
@@ -12729,7 +12731,6 @@ net-list.com
 net-privichkam.ru
 net-solution.info
 net.ua
-net8mail.com
 netcom.ws
 nethotmail.com
 netmail-pro.com
@@ -17210,7 +17211,6 @@ telukmeong2.cf
 telukmeong3.ml
 teman-bangsa.com
 temengaming.com
-temp-cloud.net
 temp-emails.com
 temp-mail.com
 temp-mail.de
@@ -17233,7 +17233,6 @@ temp15qm.com
 temp2.club
 tempail.com
 tempalias.com
-tempcloud.in
 tempcloud.info
 tempe-mail.com
 tempekmuta.cf
@@ -17445,7 +17444,6 @@ thespawningpool.com
 thestats.top
 theta-time.ru
 theteastory.info
-thetempmail.com
 thetrash.email
 thetrommler.com
 thex.ro
@@ -20663,6 +20661,7 @@ zxusnkn0ahscvuk0v.ga
 zxusnkn0ahscvuk0v.gq
 zxusnkn0ahscvuk0v.ml
 zxusnkn0ahscvuk0v.tk
+zxxz.ml
 zylpu4cm6hrwrgrqxb.cf
 zylpu4cm6hrwrgrqxb.ga
 zylpu4cm6hrwrgrqxb.gq
