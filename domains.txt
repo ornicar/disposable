@@ -5512,7 +5512,6 @@ easybedb.site
 easyemail.info
 easymail.ga
 easymail.top
-easymealideas.win
 easynetwork.info
 easytrashmail.com
 eatlogs.com
@@ -9693,13 +9692,9 @@ kad01.ga
 kad01.gq
 kad01.ml
 kad02.cf
-kad02.gq
 kad02.ml
 kad03.cf
-kad03.ga
 kad03.ml
-kad04.cf
-kad04.ga
 kadag.ir
 kademen.com
 kadokawa.cf
@@ -10822,7 +10817,6 @@ londondesign.ru
 longio.org
 lonthe.ml
 lookugly.com
-lootlotricks.site
 lopeure.com
 lopl.co.cc
 lordsofts.com
@@ -11650,7 +11644,6 @@ maximalbonus.de
 maxinim.ru
 maxmail.in
 maxmail.info
-maxpanel.id
 maxprice.co
 mayaaaa.cf
 mayaaaa.ga
@@ -13405,7 +13398,6 @@ okndrt2ebpshx5tw.ml
 okndrt2ebpshx5tw.tk
 okrent.us
 okzk.com
-old-recipes.com
 oldmine.ru
 oleginshop.ru
 olga9.ru
@@ -17357,6 +17349,7 @@ tezdbz8aovezbbcg3.ga
 tezdbz8aovezbbcg3.gq
 tezdbz8aovezbbcg3.ml
 tezdbz8aovezbbcg3.tk
+tezzmail.com
 tf5bh7wqi0zcus.cf
 tf5bh7wqi0zcus.ga
 tf5bh7wqi0zcus.gq
@@ -18566,7 +18559,6 @@ vaik.ga
 vaik.gq
 vaik.ml
 vaik.tk
-vainamail.club
 vajq8t6aiul.cf
 vajq8t6aiul.ga
 vajq8t6aiul.gq
@@ -20667,7 +20659,6 @@ zxusnkn0ahscvuk0v.ga
 zxusnkn0ahscvuk0v.gq
 zxusnkn0ahscvuk0v.ml
 zxusnkn0ahscvuk0v.tk
-zxxz.ml
 zylpu4cm6hrwrgrqxb.cf
 zylpu4cm6hrwrgrqxb.ga
 zylpu4cm6hrwrgrqxb.gq
