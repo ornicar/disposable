@@ -203,6 +203,7 @@
 105kg.ru
 10host.top
 10launcheds.com
+10m.in
 10mail.com
 10mail.org
 10minut.com.pl
@@ -448,6 +449,7 @@
 20mail.eu
 20mail.in
 20mail.it
+20min.email
 20minute.email
 20minutemail.com
 20minutemail.it
@@ -2792,6 +2794,10 @@ azxhzkohzjwvt6lcx.ga
 azxhzkohzjwvt6lcx.gq
 azxhzkohzjwvt6lcx.ml
 azxhzkohzjwvt6lcx.tk
+azzurro.cf
+azzurro.ga
+azzurro.gq
+azzurro.ml
 b-sky-b.cf
 b-sky-b.ga
 b-sky-b.gq
@@ -3798,6 +3804,7 @@ californiafitnessdeals.com
 cam4you.cc
 camaradamail.club
 camcum.ru
+camille.pw
 campano.cl
 camping-grill.info
 candymail.de
@@ -4760,6 +4767,7 @@ deagot.com
 dealja.com
 dealrek.com
 debuilding.ru
+declined-active.best
 decobar.ru
 decox.ru
 decoymail.com
@@ -7215,6 +7223,7 @@ germanyxon.com
 gero.us
 geroev.net
 geronra.com
+gertyisacas.club
 geschent.biz
 get-mail.cf
 get-mail.ga
@@ -8559,6 +8568,7 @@ ia4stypglismiks.ga
 ia4stypglismiks.gq
 ia4stypglismiks.ml
 ia4stypglismiks.tk
+iamasterfx.com
 iamcoder.ru
 iaoss.com
 iapermisul.ro
@@ -9759,6 +9769,8 @@ kad04.cf
 kad04.ga
 kad04.gq
 kad04.ml
+kad11.ga
+kad11.ml
 kadag.ir
 kademen.com
 kadokawa.cf
@@ -11405,6 +11417,7 @@ mailed.in
 mailed.ro
 maileimer.de
 maileme101.com
+maileto.com
 mailexpire.com
 mailf5.com
 mailfa.cf
@@ -11648,6 +11661,7 @@ mamsy-bags.ru
 mamulenok.ru
 manabisagan.com
 manage-11.com
+managerpayservice.club
 manam.ru
 mandraghen.cf
 manic-adas.ru
@@ -15433,6 +15447,7 @@ rosebearmylove.ru
 roseltorg-info.ru
 roseofwind.ru
 rosmillo.com
+rosso.ml
 rotaniliam.com
 rotate.pw
 roundclap.fun
@@ -16035,6 +16050,8 @@ semutkecil.com
 send-email.org
 send22u.info
 sendfree.org
+sendify.email
+sendify.org
 sendingspecialflyers.com
 sendspamhere.com
 sendto.cf
@@ -18781,6 +18798,7 @@ verifymail.ga
 verifymail.gq
 verifymail.ml
 verifymail.win
+veriifmail.com
 verisign.cf
 verisign.ga
 verisign.gq
