@@ -7612,6 +7612,7 @@ gmaillll.ml
 gmailllll.ga
 gmailssdf.com
 gmailvn.net
+gmaip.com
 gmal.com
 gmatch.org
 gmaul.com
@@ -7691,7 +7692,6 @@ gomailbox.info
 gomessage.ml
 gondskumis69.me
 goocalt-car.ru
-good-recept.ru
 good-sells.ru
 gooday.pw
 goodbussines.ru
@@ -14690,7 +14690,6 @@ priceonline.co
 pricepage.co
 priceworld.co
 pride.nafko.cf
-pridemail.co
 prigovormodoi.ru
 prihshop.ru
 primabananen.net
