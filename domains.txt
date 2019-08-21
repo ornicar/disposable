@@ -4362,7 +4362,6 @@ config.work
 confirm.live
 conmail.top
 connexion.website
-conquestofcastles.ru
 consumerriot.com
 contact-munchet.club
 contact-munchet.ltd
@@ -4470,7 +4469,6 @@ creo.ctu.edu.gr
 creo.iotu.nctu.me
 creo.nctu.me
 crewinsurance.ru
-crim3-house.ml
 crimea-kurort-online.ru
 crisis-media.ru
 crisiscrisis.co.uk
@@ -5295,7 +5293,6 @@ doiea.com
 doiposle28.ru
 dok4.ru
 doknews.ru
-doktordiv.ru
 dolina2018.ru
 dolinak.ru
 dollar-plus.ru
@@ -5476,6 +5473,7 @@ drovi.ga
 drovi.gq
 drovi.ml
 drovi.tk
+drovyanik.ru
 drowcash.ru
 drowdrow.ru
 drowfast.ru
@@ -5928,8 +5926,9 @@ effective-neurosystem.ru
 efiterra.ru
 efo.kr
 efxs.ca
-egava.ru
 eggnova.com
+egito.ga
+egito.gq
 eglft.in
 ego-in-bmw.ru
 ehhxbsbbdhxcsvzbdv.ml
@@ -7052,6 +7051,7 @@ fo9t34g3wlpb0.tk
 fobsos.ml
 fogsportjop.ru
 fogusa.ru
+foktura.ru
 fonbet-faq.ru
 fonbetik.ru
 fondgoroddetstva.ru
@@ -10769,7 +10769,6 @@ komkomp.ru
 kommunity.biz
 kompakteruss.cf
 kompbez.ru
-kompressorkupi.ru
 kon42.com
 konbat.ru
 kondadra.ru
@@ -15542,6 +15541,7 @@ punkass.com
 puppetmail.de
 purcell.email
 purchasingdvdonline.com
+purchasingdvdonline.org
 purelogistics.org
 purple.flu.cc
 purple.igg.biz
