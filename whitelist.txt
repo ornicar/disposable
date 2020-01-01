@@ -14,6 +14,8 @@ tom.com
 writeme.com
 dr.com
 mindless.com
+i.ua
+com.ar
 hush.com
 hush.ai
 hushmail.cf
