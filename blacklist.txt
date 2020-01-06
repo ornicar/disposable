@@ -429,3 +429,4 @@ mailboxok.club
 10dakika.email
 10min.email
 10minutes.email
+wmail.net
