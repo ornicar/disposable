@@ -26,7 +26,7 @@ class disposableHostGenerator():
         'sha1': [ 'https://raw.githubusercontent.com/GeroldSetz/Mailinator-Domains/master/mailinator_domains_from_bdea.cc.txt' ],
         'html': [ 'https://tempr.email', 'https://emailfake.com', 'https://www.guerrillamail.com/en/',
                   'https://mail-temp.com', 'https://10minutemail.com/10MinuteMail/resources/session/address',
-                  'https://correotemporal.org', 'https://hismail.ru', 'https://fakemailgenerator.net', 'https://clipmails.com',
+                  'https://correotemporal.org', 'https://fakemailgenerator.net', 'https://clipmails.com',
                   'https://www.luxusmail.org' ],
         'ws': [ 'wss://dropmail.me/websocket' ],
         'option-select-box': [ 'https://spamwc.de/' ],
