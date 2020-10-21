@@ -137,6 +137,9 @@ class disposableHostGenerator():
             except Exception as e:
                 if 'Unexpected UTF-8 BOM' in str(e):
                     raw = json.loads(data.decode('utf-8-sig'))
+                else:
+                    print(e)
+                    raw = []
 
             if 'domains' in raw:
                 raw = raw['domains']
