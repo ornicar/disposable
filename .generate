@@ -210,14 +210,17 @@ class disposableHostGenerator():
         need_scrape = False
 
         for host in lines_filtered:
-            self.domains[host] = None
-            self.sha1[hashlib.sha1(host.encode('idna')).hexdigest()] = None
-            self.legacy_domains[host] = None
+            try:
+                self.domains[host] = None
+                self.sha1[hashlib.sha1(host.encode('idna')).hexdigest()] = None
+                self.legacy_domains[host] = None
 
-            if url in self.scrape_sources and not host in self.scrape:
-                self.scrape.append(host)
-                need_scrape = True
-                self.scrape_count = 0
+                if url in self.scrape_sources and not host in self.scrape:
+                    self.scrape.append(host)
+                    need_scrape = True
+                    self.scrape_count = 0
+            except UnicodeError as e:
+                print(f"{host} {e}")
 
         if not need_scrape and url in self.scrape_sources and self.scrape_count < 2 and retry > 0:
             self.scrape_count += 1
