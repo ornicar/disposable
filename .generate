@@ -27,8 +27,8 @@ class disposableHostGenerator():
                   'https://api4.temp-mail.org/request/domains/format/json', 'https://api.internal.temp-mail.io/api/v2/domains',
                   'https://www.fakemail.net/index/index' ],
         'sha1': [ 'https://raw.githubusercontent.com/GeroldSetz/Mailinator-Domains/master/mailinator_domains_from_bdea.cc.txt' ],
-        'html': [ 'https://tempr.email', 'https://emailfake.com', 'https://www.guerrillamail.com/en/',
-                  'https://mail-temp.com', 'https://10minutemail.com/10MinuteMail/resources/session/address',
+        'html': [ 'https://emailfake.com', 'https://www.guerrillamail.com/en/',
+                  'https://mail-temp.com', 'https://10minutemail.com/session/address',
                   'https://correotemporal.org', 'https://fakemailgenerator.net', 'https://clipmails.com',
                   'https://www.luxusmail.org', 'https://www.temp-mails.com', 'https://tempmailo.com', 'https://lortemail.dk',
                   'https://tempmail.plus/en/', 'https://mailpoof.com' ],
@@ -139,9 +139,6 @@ class disposableHostGenerator():
             except Exception as e:
                 if 'Unexpected UTF-8 BOM' in str(e):
                     raw = json.loads(data.decode('utf-8-sig'))
-                else:
-                    print(e)
-                    raw = []
 
             if 'domains' in raw:
                 raw = raw['domains']
@@ -210,17 +207,17 @@ class disposableHostGenerator():
         need_scrape = False
 
         for host in lines_filtered:
+            self.domains[host] = None
             try:
-                self.domains[host] = None
                 self.sha1[hashlib.sha1(host.encode('idna')).hexdigest()] = None
-                self.legacy_domains[host] = None
+            except:
+                pass
+            self.legacy_domains[host] = None
 
-                if url in self.scrape_sources and not host in self.scrape:
-                    self.scrape.append(host)
-                    need_scrape = True
-                    self.scrape_count = 0
-            except UnicodeError as e:
-                print(f"{host} {e}")
+            if url in self.scrape_sources and not host in self.scrape:
+                self.scrape.append(host)
+                need_scrape = True
+                self.scrape_count = 0
 
         if not need_scrape and url in self.scrape_sources and self.scrape_count < 2 and retry > 0:
             self.scrape_count += 1
