@@ -1,3 +1,4 @@
+.
 .impo-text
 0-00.usa.cc
 0-180.com
@@ -40188,7 +40189,6 @@ fastmoney.pro
 fastmsg.us
 fastnissan.com
 fastnotify.press
-fasto.ml
 fastology.net
 fastpass.com
 fastpaydayloans.com
@@ -60281,6 +60281,7 @@ kimfetstx.com
 kimhiiida.com
 kimhui.online
 kimia.xyz
+kimim.tk
 kimirsen.ru
 kimmckoy.com
 kimmygranger.xyz
@@ -96810,6 +96811,7 @@ simpleitsecurity.info
 simplejourneyguide.com
 simplelifetimeincome.com
 simplelifthub.com
+simplelogin.co
 simplemail.in
 simplemail.top
 simplemailserver.bid
@@ -115567,6 +115569,7 @@ whatsresfa.ml
 whatsresfa.tk
 whatsthepointofaventura.com
 whatthefeast.com
+whatthefish.info
 whatwewant.live
 whatworkscsc.org
 whatyourdoctorwasnttaughtebook.com
