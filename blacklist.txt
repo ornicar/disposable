@@ -863,3 +863,5 @@ idurse.com
 psnator.com
 gmailnator.com
 mailspamprotection.com
+amailhost.xyz
+emailfox.us
