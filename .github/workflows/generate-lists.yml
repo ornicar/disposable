@@ -1,0 +1,27 @@
+# This is a basic workflow that is manually triggered
+
+name: generate lists
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build list
+    runs-on: ubuntu-latest
+    container:
+      image: "ghcr.io/${{ github.repository }}:latest"
+      credentials:
+        username: disposable
+        password: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Start unbound service
+        run: |
+          service unbound start
+          service unbound status
+      - name: Add missing dependencies
+        run: "poetry install"
+      - name: Run script
+        run: "poetry run ./.generate -D --ns 127.0.0.1 --dnsport 5335 --source-map --src 'https://getnada.com/api/v1/domains'"
