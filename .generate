@@ -404,7 +404,7 @@ class disposableHostGenerator():
         """
         logging.info("Process %s (%s)", source['src'], source['type'])
 
-        max_scrape = 80
+        max_scrape = 10
         scrape_max_retry = 3
         scrape_count = 0
         self.scrape = set()
