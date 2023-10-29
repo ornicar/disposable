@@ -3,7 +3,6 @@ from typing import Any, Union, Tuple
 import functools
 import json
 import re
-import urllib.request
 import sys
 import hashlib
 import html
@@ -15,10 +14,15 @@ import dns.rdatatype
 import dns.exception
 import concurrent.futures
 import logging
-import http.client
-import ssl
+import httpx
 import ipaddress
+import random
+import string
 from websocket import create_connection
+
+def generate_random_string(length):
+    letters = string.ascii_lowercase
+    return ''.join(random.choice(letters) for _ in range(length))
 
 
 class remoteData():
@@ -66,7 +70,7 @@ class remoteData():
         return data
 
     @staticmethod
-    def fetchHTTPRaw(url: str, headers: Union[dict, None] = None, timeout: int = 3, max_retry: int = 150) -> Union[http.client.HTTPResponse, None]:
+    def fetchHTTPRaw(url: str, headers: Union[dict, None] = None, timeout: int = 3, max_retry: int = 150) -> Union[httpx.Response, None]:
         """Fetch data from HTTP(s) URL and return http object
 
         :param url: URL to call
@@ -83,28 +87,20 @@ class remoteData():
         if headers is None:
             headers = {}
         retry = 0
-        headers.setdefault('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0')
-        context = ssl._create_unverified_context()
-        sslHandler = urllib.request.HTTPSHandler(context=context)
-        opener = urllib.request.build_opener(sslHandler)
-        print(url)
-        while retry < max_retry:
-            try:
-                req = urllib.request.Request(
-                    url,
-                    data=None,
-                    headers=headers
-                )
-                return opener.open(req, timeout=timeout)
-            except Exception as e:
-                retry += 1
-                logging.error(e)
-                if remoteData.retry_errors_re.search(str(e)) and retry < max_retry:
-                    time.sleep(1)
-                    continue
+        headers.setdefault('User-Agent', 'Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/116.0')
+        with httpx.Client(http2=True, verify=False) as client:
+            while retry < max_retry:
+                try:
+                    return client.get(url, headers=headers, timeout=timeout)
+                except Exception as e:
+                    retry += 1
+                    logging.error(e)
+                    if remoteData.retry_errors_re.search(str(e)) and retry < max_retry:
+                        time.sleep(1)
+                        continue
 
-                logging.warning('Fetching URL %s failed, see error: %s', url, e)
-                break
+                    logging.warning('Fetching URL %s failed, see error: %s', url, e)
+                    break
         return None
 
     @staticmethod
@@ -134,24 +130,22 @@ class disposableHostGenerator():
 
     sources = [
         {'type': 'list', 'src': 'https://gist.githubusercontent.com/adamloving/4401361/raw/'},
-        {'type': 'list', 'src': 'https://gist.githubusercontent.com/michenriksen/8710649/raw/'},
         {'type': 'list', 'src': 'https://gist.githubusercontent.com/jamesonev/7e188c35fd5ca754c970e3a1caf045ef/raw/'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/disposable/static-disposable-lists/master/mail-data-hosts-net.txt'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/wesbos/burner-email-providers/master/emails.txt'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/disposable/disposable/master/blacklist.txt'},
-        {'type': 'list', 'src': 'https://raw.githubusercontent.com/GeroldSetz/emailondeck.com-domains/master/emailondeck.com_domains_from_bdea.cc.txt'},
-        {'type': 'list', 'src': 'https://raw.githubusercontent.com/willwhite/freemail/master/data/disposable.txt'},
-        {'type': 'list', 'src': 'https://raw.githubusercontent.com/stopforumspam/disposable_email_domains/master/blacklist.txt'},
+        {'type': 'list', 'src': 'https://www.stopforumspam.com/downloads/toxic_domains_whole.txt'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/martenson/disposable-email-domains/master/disposable_email_blocklist.conf'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/daisy1754/jp-disposable-emails/master/list.txt'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/FGRibreau/mailchecker/master/list.txt'},
         {'type': 'json', 'src': 'https://raw.githubusercontent.com/ivolo/disposable-email-domains/master/index.json'},
         {'type': 'list', 'src': 'https://raw.githubusercontent.com/7c/fakefilter/main/txt/data.txt'},
-        {'type': 'list', 'src': 'https://getnada.com/api/v1/domains'},
+        {'type': 'list', 'src': 'https://raw.githubusercontent.com/flotwig/disposable-email-addresses/master/domains.txt'},
+        {'type': 'json', 'src': 'https://inboxes.com/api/v2/domain'},
         {'type': 'json', 'src': 'https://mob1.temp-mail.org/request/domains/format/json'},
         {'type': 'json', 'src': 'https://api.internal.temp-mail.io/api/v2/domains'},
         {'type': 'json', 'src': 'https://www.fakemail.net/index/index', 'scrape': True},
-        {'type': 'json', 'src': 'https://api.disposablemailbox.com/domains'},
+        {'type': 'json', 'src': 'https://api.mailpoof.com/domains'},
         {'type': 'file', 'src': 'blacklist.txt', 'ignore_not_exists': True},
         {'type': 'sha1', 'src': 'https://raw.githubusercontent.com/GeroldSetz/Mailinator-Domains/master/mailinator_domains_from_bdea.cc.txt'},
         {
@@ -169,16 +163,11 @@ class disposableHostGenerator():
         {'type': 'html', 'src': 'https://www.trash-mail.com/inbox/'},
         {'type': 'html', 'src': 'https://mail-temp.com',
             'regex': re.compile(r"""change_dropdown_list[^"]+"[^>]+>@?([a-z0-9\.-]{1,128})""", re.I), 'scrape': True},
-        {'type': 'html', 'src': 'https://10minutemail.com/session/address',
-            'regex': re.compile(r""".+?@?([a-z0-9\.-]{1,128})""", re.I)},
+        # currently blocked by cloudflare - we probably need some kind of external service or undetected-chromedriver for this...
+        # {'type': 'html', 'src': 'https://10minutemail.com/session/address', 'regex': re.compile(r""".+?@?([a-z0-9\.-]{1,128})""", re.I)},
         {'type': 'html', 'src': 'https://correotemporal.org', 'regex': domain_search_regex},
         {'type': 'html', 'src': 'https://fakemailgenerator.net',
             'regex': re.compile(r"""<a.+?data-mailhost=\"@?([a-z0-9\.-]{1,128})\"""", re.I)},
-        {'type': 'html', 'src': 'https://clipmails.com', 'regex': [
-            re.compile(r"""wire:initial-data="(.+?domains[^\"]+)\""""),
-            re.compile(r"""\&quot;domains\&quot;:\[([^\]]+)\]"""),
-            re.compile(r"""\&quot;([^\&]+)\&quot;""")
-        ]},
         {'type': 'html', 'src': 'https://nospam.today/home', 'regex': [
             re.compile(r"""wire:initial-data="(.+?domains[^\"]+)\""""),
             re.compile(r"""\&quot;domains\&quot;:\[([^\]]+)\]"""),
@@ -191,6 +180,8 @@ class disposableHostGenerator():
         {'type': 'html', 'src': 'https://lortemail.dk'},
         {'type': 'html', 'src': 'https://tempmail.plus/en/',
             'regex': re.compile(r"""<button type=\"button\" class=\"dropdown-item\">([^<]+)</button>""", re.I)},
+        {'type': 'html', 'src': 'https://spamok.nl/demo' + generate_random_string(8),
+            'regex': re.compile(r"""<option\s+value="([^"]+)">""", re.I)},
         {'type': 'html', 'src': 'https://tempr.email',
             'regex': re.compile(r"""<option\s+value[^>]*>@?([a-z0-9\-\.\&#;\d+]+)\s*(\(PW\))?<\/option>""", re.I)},
         {'type': 'ws', 'src': 'wss://dropmail.me/websocket'},
@@ -404,7 +395,7 @@ class disposableHostGenerator():
         """
         logging.info("Process %s (%s)", source['src'], source['type'])
 
-        max_scrape = 10
+        max_scrape = 80
         scrape_max_retry = 3
         scrape_count = 0
         self.scrape = set()
@@ -769,10 +760,10 @@ if __name__ == '__main__':
     parser.add_argument('-q', '--quiet', action='store_false', dest='verbose', help='hide verbose output')
     parser.add_argument('-D', '--debug', action='store_true', dest='debug', help='show debug output and exit on warn/error')
     parser.add_argument('--max-retry', type=int, dest='max_retry',
-                        help='maximum count of retries to fetch an url, default: 5', default=5)
+                        help='maximum count of retries to fetch an url, default: 150', default=150)
     parser.add_argument('--dns-threads', type=int, dest='dns_threads',
                         help='count of threads to use for dns resolving, default:10', default=10)
-    parser.add_argument('--dns-timeout', type=int, dest="dns_timeout", help='timeout for dns request, default: 10', default=10.0)
+    parser.add_argument('--dns-timeout', type=int, dest="dns_timeout", help='timeout for dns request, default: 20', default=20.0)
     parser.add_argument('--ns', action='append', dest='nameservers', help='set custom resolver for dns-verify')
     parser.add_argument('--dnsport', type=int, dest='dnsport', help='set custom resolver port for dns-verify')
     parser.add_argument('--list-sources', action='store_true', dest='list_sources', help='list all sources')
