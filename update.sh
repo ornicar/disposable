@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git pull
+git pull origin master
 ./.generate
 git add .
 git commit -m "auto update domains"
