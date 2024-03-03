@@ -841,7 +841,6 @@ svpmail.com
 swbell.net
 swismailbox.com
 swsguide.com
-syro.xyz
 t8kco4lsmbeeb.ga
 tafmail.com
 taidar.ru
@@ -1062,7 +1061,6 @@ ziinx.com.mx
 skipthemail.com
 munik.edu.pl
 myluck24.xyz
-privateemail.com
 vettonia.com
 ptw2.com
 boozinbullies.us
@@ -2982,3 +2980,4 @@ dralias.com
 hupoi.com
 mailcafe.org
 secretmail.net
+lettershield.com
