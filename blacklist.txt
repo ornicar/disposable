@@ -3009,4 +3009,5 @@ everymails.shop
 emailsify.shop
 mailify.shop
 evrymails.shop
+evrymail.shop
 email2u.shop
