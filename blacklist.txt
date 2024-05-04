@@ -3013,3 +3013,4 @@ evrymail.shop
 email2u.shop
 tempsmtp.com
 permcourier.com
+fakemailserver.com
