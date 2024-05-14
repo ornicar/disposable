@@ -3014,3 +3014,4 @@ email2u.shop
 tempsmtp.com
 permcourier.com
 fakemailserver.com
+phantom-mail.io
