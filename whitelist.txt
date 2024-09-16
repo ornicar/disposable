@@ -203,3 +203,5 @@ fishbone.dev
 
 # ISP client domain
 embarqmail.com
+
+forwardemail.net
