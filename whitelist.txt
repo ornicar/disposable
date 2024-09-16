@@ -200,3 +200,6 @@ file-up.fr
 
 # Personal domain - contact
 fishbone.dev
+
+# ISP client domain
+embarqmail.com
