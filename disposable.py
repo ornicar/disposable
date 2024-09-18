@@ -26,8 +26,8 @@ DOMAIN_SEARCH_RE = re.compile(r'["\'\s>]([a-z\d\.-]{1,63}\.[a-z\-]{2,63})["\'\s<
 HTML_GENERIC_RE = re.compile(r"""<option[^>]*>@?([a-z\-\.\&#;\d+]+)\s*(\(PW\))?<\/option>""", re.I)
 SHA1_RE = re.compile(r'^[a-fA-F0-9]{40}')
 
-DISPOSABLE_WHITELIST_URL = 'https://raw.githubusercontent.com/disposable/disposable/master/whitelist.txt'
-DISPOSABLE_GREYLIST_URL = 'https://raw.githubusercontent.com/disposable/disposable/master/greylist.txt'
+DISPOSABLE_WHITELIST_URL = 'https://raw.githubusercontent.com/ornicar/disposable/publish/whitelist.txt'
+DISPOSABLE_GREYLIST_URL = 'https://raw.githubusercontent.com/ornicar/disposable/publish/greylist.txt'
 
 
 def generate_random_string(length: int) -> str:
