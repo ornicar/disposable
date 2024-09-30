@@ -205,3 +205,4 @@ fishbone.dev
 embarqmail.com
 
 forwardemail.net
+mailhaven.com
