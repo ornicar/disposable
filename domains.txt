@@ -38306,6 +38306,7 @@ licenses.sbs
 liceomajoranarho.it
 licepann.com
 lichess.buzz
+lichess.org
 lichesstournaments.com
 lichten-nedv.ru
 lichthidauworldcup.net
